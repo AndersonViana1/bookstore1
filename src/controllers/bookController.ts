@@ -47,7 +47,7 @@ export const getBooks = async (req: Request, res: Response) => {
 
     const response = {
       description: "API para manipular livros",
-      development: "Lucas Santana",
+      development: "Anderson Viana",
       date: new Date().toISOString(),
       version: "1.0",
       books: formattedBooks,
